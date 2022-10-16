@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+.header{
+    height: 90px;
+    background-color:#D8D8D8;
+    padding: 0 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    width: auto;
+    height: 50px;
+}
+.container{
+    display: flex;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+}
+.nav>a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.section{
+    padding:0 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 650px;
+}
+.image>img{
+    height: 580px;
+    width: auto;
+}
+.about{
+    width: 300px;
+    height: 200px;
+    background-color: #030303;
+   padding: 100px;
+}
+.about>p{
+    color:azure;
+}
+.about>h1{
+    color:azure;
+}
+.razruv{
+    height: 700px;
+}
+.section1{
+    padding:0 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 900px;
+}
+
+.cr1{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.speak>p{
+    color: #88898B;
+}
+
+.r1{
+    display:inline;
+}
+.r1>p{
+    color: #88898B;
+}
+.section2{
+    padding: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 900px;
+    box-sizing: border-box;
+    position: relative;
+    top: 200px;
+}
+.dpc1>p {
+    color:azure;
+}
+.dpc2>p{
+    color:azure;
+}
+.dpc3>p{
+    color:azure;
+}
+.dpc1>h1{
+    color:azure
+}
+.dpc2>h1{
+    color:azure
+}
+.dpc3>h1{
+    color:azure
+}
+.dp1{
+    background-image: url(images/im2.png);
+    height: 500px;
+    align-items: center;
+}
+.dpc1{
+    background-color: #F85B29;
+}
+.dp2{
+    background-image: url(images/im3.png);
+    height: 500px;
+    align-items: center;
+}
+.dpc2{
+    background-color: #1A1818;
+}
+.dp3{
+    background-image: url(images/im4.png);
+    height: 500px;
+    align-items: center;
+}
+.dpc3{
+    background-color: #7443CA;
+}
+.footer{
+    padding:0 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    background-color: #1A1818;
+    margin: 0;
+}
+.minifoot{
+    padding: 20px;
+}
+.foot2{
+    color:azure;
+    font-size: 20px;
+}
+.foot1>h1{
+    color:azure;
+}
