@@ -32,6 +32,23 @@
     justify-content: space-between;
     align-items: center;
     height: 650px;
+    animation: anim1 3s 1 forwards;
+}
+@keyframes anim1{
+    0%{
+        transform: translate(-1000px, 0px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes anim2{
+    0%{
+        transform: translate(1000px, 0px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
 }
 .image>img{
     height: 580px;
@@ -58,6 +75,7 @@
     justify-content: space-between;
     align-items: center;
     height: 900px;
+    animation: anim2 3s 1 forwards;
 }
 
 .cr1{
